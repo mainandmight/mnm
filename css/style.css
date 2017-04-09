@@ -162,7 +162,7 @@ min-height : 500px;
 background-size : cover;
 }
 #abt_sec {
-padding : 100px 0 150px 0;
+padding : 100px 0 125px 0;
 /*background-color: #293a0b;*/
 background-color: #222222;
 }
@@ -1024,3 +1024,6 @@ width : 731px !important ;
     height: 12px;
     padding-top: 5px;
 }
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;}
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
